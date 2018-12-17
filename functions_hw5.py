@@ -119,10 +119,10 @@ def blockRanking(inp_cat,categories,G):
     For the input category the distance is one and if a category has nodes with no path connecting the two categories,
     returns a nan values.
 
-    Input: the input category, the others categories and the graph.
+    Input: the input category, the categories dictionary and the graph.
     
-    Output: a dictionary in which the keys correspond to the categories names and 
-    the values corresponding to the distance of each category of the graph from the input one.
+    Output: a list of tuples with the values corresponding to the distance of each category of the graph from the input one
+    and the name of each category. The first result corresponds to the input category and it has distance 0.
     '''
 
     #initialiazation of the block ranking vector with the iput category
