@@ -17,13 +17,6 @@ In this assignment we perform an analysis of the Wikipedia Hyperlink graph. In p
 	-  `wiki-topcats-categories.txt.gz`
 	-  `wiki-topcats-page-names.txt.gz`
 
-## General notes
-
-You will notice that one article might belong to a single category or multiple ones. In the case it belongs to more than one:
-
-* If the article belongs to the input category (we will talk about this in RQ2) it belongs to that one.
-* Otherwise, the category of the article will correspond, among the categories it belongs to, to the closest to the input category.
-
 
 ## Research questions
 
