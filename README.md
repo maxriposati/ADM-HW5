@@ -12,8 +12,8 @@ In this assignment we perform an analysis of the Wikipedia Hyperlink graph. In p
 
 ## Dataset
 
-1.  Download  [Wikicat hyperlink graph](https://drive.google.com/file/d/1ghPJ4g6XMCUDFQ2JPqAVveLyytG8gBfL/view?usp=sharing).  
-2.  From [this](https://snap.stanford.edu/data/wiki-topcats.html) page download:
+1.  For the task we use this reduced Dataset [Wikicat hyperlink graph](https://drive.google.com/file/d/1ghPJ4g6XMCUDFQ2JPqAVveLyytG8gBfL/view?usp=sharing).  
+2.  From [this](https://snap.stanford.edu/data/wiki-topcats.html) page we download:
 	-  `wiki-topcats-categories.txt.gz`
 	-  `wiki-topcats-page-names.txt.gz`
 
