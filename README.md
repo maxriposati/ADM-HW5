@@ -42,6 +42,7 @@ This repository contains:
   	<li type="circle">The main <code>Homework_05.ipynb</code> code</li>
   	<li type="circle">The <code>functions_hw5.py</code> function file that we need in the main code.</li>
   </ul>
+  
 ## Links
 For completeness, here are the <b>nbviewer</b> links of the main code and the map:
  
