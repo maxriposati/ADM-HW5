@@ -39,7 +39,12 @@ You will notice that one article might belong to a single category or multiple o
 **[RQ2]** Given a category <img src="https://latex.codecogs.com/gif.latex?C_0&space;=&space;\{article_1,&space;article_2,&space;\dots&space;\}" title="C_0 = \{article_1, article_2, \dots \}" /> as input we want to rank all of the nodes in *V* according to the following criteria:
 	
 ## Links
-[Homework_05.ipynb] (#http://nbviewer.jupyter.org/github/maxriposati/ADM-HW5/blob/master/Homework_05.ipynb)
+For completeness, here are the <b>nbviewer</b> links of the main code and the map:
+ 
+ <ul>
+  <li type="circle">http://nbviewer.jupyter.org/github/maxriposati/ADM-HW5/blob/master/Homework_05.ipynb</li>
+ </ul>
+[Homework_05.ipynb](#http://nbviewer.jupyter.org/github/maxriposati/ADM-HW5/blob/master/Homework_05.ipynb)
 
 
 
