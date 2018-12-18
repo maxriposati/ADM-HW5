@@ -10,7 +10,12 @@ In this assignment we perform an analysis of the Wikipedia Hyperlink graph. In p
 
 <div style="text-align:center"><img src ="https://cryptobriefing.com/wp-content/uploads/2018/04/Wikipedia-and-Request-Network-enable-donors-to-donate-in-cryptocurrency.jpg" /></div>
 
-**categories that has a number of articles greater than 3500.**
+## Dataset
+
+1.  Download  [Wikicat hyperlink graph](https://drive.google.com/file/d/1ghPJ4g6XMCUDFQ2JPqAVveLyytG8gBfL/view?usp=sharing).  
+2.  From [this](https://snap.stanford.edu/data/wiki-topcats.html) page download:
+	-  `wiki-topcats-categories.txt.gz`
+	-  `wiki-topcats-page-names.txt.gz`
 
 ## General notes
 
