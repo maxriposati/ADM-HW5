@@ -8,12 +8,9 @@
 
 In this assignment we perform an analysis of the Wikipedia Hyperlink graph. In particular, given extra information about the categories to which an article belongs to, we are curious to rank the articles according to some criteria. 
 
-For this purpose we use the Wikipedia graph released by the SNAP group.
-
 <div style="text-align:center"><img src ="https://cryptobriefing.com/wp-content/uploads/2018/04/Wikipedia-and-Request-Network-enable-donors-to-donate-in-cryptocurrency.jpg" /></div>
 
-Note that there are some categories that we have removed from the graph; more precisely, you **must take into account all the categories that has a number of articles greater than 3500.**
-
+**categories that has a number of articles greater than 3500.**
 
 ## General notes
 
@@ -21,10 +18,6 @@ You will notice that one article might belong to a single category or multiple o
 
 * If the article belongs to the input category (we will talk about this in RQ2) it belongs to that one.
 * Otherwise, the category of the article will correspond, among the categories it belongs to, to the closest to the input category.
-
-
-__All the algorithms__, must be implement from scratch, with the exception of the algorithm that computes the induced subgraph.
-
 
 
 ## Research questions
@@ -47,12 +40,7 @@ __All the algorithms__, must be implement from scratch, with the exception of th
 	
 Each category <img src="https://latex.codecogs.com/gif.latex?C_i"/> corresponds to a list of nodes. 
 
-
-![alt text](imgs/sort_inside_categories.png)
-
 The first category of the rank, <img src="https://latex.codecogs.com/gif.latex?C_0" title="C_0" />, always corresponds to the input category. The order of the remaining categories is given by:
-
-
 
 <img src="https://latex.codecogs.com/gif.latex?$$distance(C_0,&space;C_i)&space;=&space;median(ShortestPath(C_0,&space;C_i))$$" title="distance(C_0, C_i) = median(ShortestPath(C_0, C_i))" />
 
@@ -72,26 +60,19 @@ __[STEP2]__ Extend the graph to the nodes that belong to <img src="https://latex
 
 
 __[STEP3]__ Repeat Step2 up to the last category of the ranking. In the last step of the example you clearly see the weight update of the edge coming from node *E*.
-	
-![alt text](imgs/algorithm.PNG)
-
-
 
 
 # Submitting the homework
 
-## When?
-
-Homework 5 is due on [23rd December 2018 - 23:59:59](http://aris.me/index.php/data-mining-ds-2018). Any homework submitted after the deadline will be subjected to a penalisation with the following schema:
+Homework 5 is due on [23rd December 2018 - 23:59:59](http://aris.me/index.php/data-mining-ds-2018). 
 
 The content of the repository is up to you. The mandatory files are:
 
-* `README.md`: a Markdown file that explains the content of your repository. This is an [example](https://github.com/CriMenghini/Wikipedia/tree/master/Mention). It is important that for each file/folder you say what it contains. [Here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) a cheatsheet to use Markdown.
-* `Homework_5.ipynb`: a tidy Notebook where you put the code and the comments of your pipeline. Here an [example](https://github.com/CriMenghini/ADA_Homeworks/blob/master/Homework_2/Hw_2.ipynb) of what it should look like.
-    - In general, for the sake of the tidiness of the Notebook, you are encouraged to save your functions in external .py files that you [import](https://www.programiz.com/python-programming/modules) in the notebook.
-    - Upload on GitHub the notebook with the cells already run
-    - It might be possible that you do not see some plots. For this reason, we suggest you to put in the `README.md` a link that you create [here](http://nbviewer.jupyter.org/) just copying and paste the url of your notebook on GitHub.
+* `README.md`:
+* `Homework_5.ipynb`:
+
+create [here](http://nbviewer.jupyter.org/) just copying and paste the url of your notebook on GitHub.
 
 It __must not__ contain:
 
-* The datasets you used (thus you should clearly state in the readme what dataset you used, if any not in the homework description). That's because git allows you to push only dataset smaller of a max size. [Here](https://medium.com/@haydar_ai/learning-how-to-git-ignoring-files-and-folders-using-gitignore-177556afdbe3) a good Medium's post that tells you how to deal with files/directories you do not want to push on GitHub.
+* The datasets you used (thus you should clearly state in the readme what dataset you used, if any not in the homework description).
