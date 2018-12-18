@@ -49,7 +49,7 @@ This repository contains:
   </ul>
   
 ## Links
-For completeness, here are the <b>nbviewer</b> links of the main code:
+For completeness, here are the <b>nbviewer</b> link of the main code:
  
  <ul>
  	<li type="circle">http://nbviewer.jupyter.org/github/maxriposati/ADM-HW5/blob/master/Homework_05.ipynb</li>
