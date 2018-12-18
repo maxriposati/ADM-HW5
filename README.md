@@ -27,18 +27,10 @@ You will notice that one article might belong to a single category or multiple o
 **[RQ1]** Build the graph <img src="https://latex.codecogs.com/gif.latex?G=(V,&space;E)" title="G=(V, E)" />, where *V* is the set of articles and *E* the hyperlinks among them, and provide its basic information:
  
 - If it is direct or not                             
-> G is directed Graph:  True
 - The number of nodes                                
->number of nodes:  461193
 - The number of edges                                
-> number of edges:  2645247
-- The average node degree.                           
-> Average in-node/predecessors degree:  5.7357
-> Average out-node/successors degree:  5.7357
-						     
+- The average node degree.			     
 - Is the graph dense?                                
-> The graph density is:  1.2436602635647606e-05
-> NOT very dense
 
 
 **[RQ2]** Given a category <img src="https://latex.codecogs.com/gif.latex?C_0&space;=&space;\{article_1,&space;article_2,&space;\dots&space;\}" title="C_0 = \{article_1, article_2, \dots \}" /> as input we want to rank all of the nodes in *V* according to the following criteria:
