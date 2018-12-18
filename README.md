@@ -62,17 +62,3 @@ __[STEP2]__ Extend the graph to the nodes that belong to <img src="https://latex
 __[STEP3]__ Repeat Step2 up to the last category of the ranking. In the last step of the example you clearly see the weight update of the edge coming from node *E*.
 
 
-# Submitting the homework
-
-Homework 5 is due on [23rd December 2018 - 23:59:59](http://aris.me/index.php/data-mining-ds-2018). 
-
-The content of the repository is up to you. The mandatory files are:
-
-* `README.md`:
-* `Homework_5.ipynb`:
-
-create [here](http://nbviewer.jupyter.org/) just copying and paste the url of your notebook on GitHub.
-
-It __must not__ contain:
-
-* The datasets you used (thus you should clearly state in the readme what dataset you used, if any not in the homework description).
