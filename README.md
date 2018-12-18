@@ -27,7 +27,7 @@ You will notice that one article might belong to a single category or multiple o
 
 ## Research questions
 
-<div style="text-align:center"><img src ="http://allywebs.com/images/social_networking.png" /></div>
+<div style="text-align:center"><img src ="http://www.societygov.org/wp-content/uploads/2017/07/network-1911678_1920-copia.jpg" /></div>
 
 **[RQ1]** Build the graph <img src="https://latex.codecogs.com/gif.latex?G=(V,&space;E)" title="G=(V, E)" />, where *V* is the set of articles and *E* the hyperlinks among them, and provide its basic information:
  
