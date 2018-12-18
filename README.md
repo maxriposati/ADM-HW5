@@ -44,7 +44,6 @@ For completeness, here are the <b>nbviewer</b> links of the main code and the ma
  <ul>
   <li type="circle">http://nbviewer.jupyter.org/github/maxriposati/ADM-HW5/blob/master/Homework_05.ipynb</li>
  </ul>
-[Homework_05.ipynb](#http://nbviewer.jupyter.org/github/maxriposati/ADM-HW5/blob/master/Homework_05.ipynb)
 
 
 
